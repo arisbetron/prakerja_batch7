@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #profile {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            font-size: 12px;
+        }
+        #gambar {
+            flex: 1;
+            background-color: rosybrown;
+        }
+        #nama {
+            flex: 2;
+            background-color: silver;
+        }
+        #detail {
+            flex: 4;
+            background-color: skyblue;
+        }
+        @media (min-width: 768px) {
+            #profile {
+                flex-direction: row;
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="profile">
+        <div id="gambar">
+            <h1>Gambar</h1>
+        </div>
+        <div id="nama">
+            <h1>Nama</h1>
+        </div>
+        <div id="detail">
+            <h1>Detail</h1>
+        </div>
+    </div>
+</body>
+</html>
